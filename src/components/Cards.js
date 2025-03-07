@@ -5,7 +5,7 @@ const Cards = ({ characters, onCharacterClick }) => {
         <div
           key={index}
           className="card"
-          onClick={() => onCharacterClick(c.name)}
+          onClick={() => onCharacterClick(index)}
         >
           {c.name}
         </div>
